@@ -1,0 +1,12 @@
+---VUE CLI---
+https://cli.vuejs.org/
+
+
+-----DOCUMENTACIÓN VUE----
+https://vuejs.org/v2/guide/#Getting-Started
+
+-------EJECUTAR PROYECTO VUE-----
+ingresar a la raíz del proyecto: 
+    cd proyecto-vue
+Levantar el servicio:
+    npm run serve
