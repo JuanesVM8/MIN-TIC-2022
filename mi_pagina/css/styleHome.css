@@ -1,0 +1,80 @@
+/**********ESTILOS PARA EL MENU 1**********/
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(89, 94, 98);
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+}
+li a:hover{
+    background-color: orange;
+}
+
+body{
+    margin: 0px;
+}
+
+#contenedor{
+    background-color: green;
+    width: 40%;
+}
+
+/*******ESTILO DEL ICONO MENÚ******/
+.fa-bars, .fa-times, input[type="checkbox"]{
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    font-size: 1.8rem;
+    opacity: 0;
+}
+
+input[type="checkbox"]{
+   margin: 0px;
+   padding: 0px;
+}
+
+/*************ESTILOS PARA EL MENU 2************/
+#menu_2{
+    width: 120px;
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+
+
+/**********MEDIA QUERIES***********/
+@media only screen and (max-width: 800px) {
+    .fa-bars{
+        opacity: 1;
+    }
+    input:checked~#menu_2{
+        display: block;
+    }
+    input:checked~.fa-times{
+        opacity: 1;
+    }
+    input:not(:checked)~.fa-bars{
+       opacity: 0;
+    }
+    #menu_1 ul li{
+        opacity: 0;
+    }
+    #contenedor{
+        width: 100%;
+    }
+}
