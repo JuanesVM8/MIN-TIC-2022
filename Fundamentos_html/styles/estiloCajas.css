@@ -1,0 +1,53 @@
+#s1 div{
+    background-color: rgb(130, 165, 136);
+    width: 400px;
+    display: inline-block;
+}
+#s1 p{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#s2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#s3 #parrafo, #span_1, #label_1{
+    font-size: 1.2rem;
+}
+
+#s4 p{
+    font-family: cursive;
+}
+
+#s4 p{
+    color: orange;
+}
+
+#s5{
+    text-align: center;
+}
+
+#s5 div{
+    width: 100px;
+    background-color: green;
+    display: inline-block;
+    padding: 0.5rem;
+    /*cambia el cursor a un selector*/
+    cursor: pointer;
+}
+/*hover detecta cuando el mouse está
+sobre el elemento*/
+#s5 div:hover{
+    color: orange;
+    font-weight: bold;
+    background-color: rgb(126, 127, 128);
+}
+
+/*
+Esto es un comentario
+table, tr, td, th{
+    margin: 0px;
+}
+*/

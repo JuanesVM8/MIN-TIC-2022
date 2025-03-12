@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-------Cargar la hoja de estilo---->
+    <link rel="stylesheet" href="../styles/styleForm.css">
+</head>
+
+<body>
+    <h1>Campos de texto</h1>
+    <!-------campo de texto-------->
+    <input type="text" />
+    <br>
+    <br>
+    <!----Campo de texto con "marca de agua"----->
+    <input type="text" placeholder="Ingresa tu nombre" />
+    <br>
+    <br>
+    <!----Campo numérico---->
+    <input type="number" placeholder="campo numérico" />
+    <br>
+    <br>
+    <!-----Campo telefónico----->
+    <input type="tel" placeholder="campo telefónico" />
+    <br>
+    <br>
+    <!------checkbox----->
+    <input type="checkbox" id="c1" class="checks" name="c1" />
+    <label for="c1">Checkbox 1</label>
+    <br>
+    <input type="checkbox" id="c2" name="c2" class="checks" />
+    <label for="c2">Checkbox 2</label>
+    <br>
+    <input type="checkbox" id="c3" name="c3" class="checks" />
+    <label for="c3">Checkbox 3</label>
+    <br>
+    <input type="checkbox" id="c4" name="c4" class="checks" />
+    <label for="c4">Checkbox 4</label>
+
+    <hr>
+    <h1>Formularios</h1>
+    <!---Cargar una imagen---->
+
+    <img id="logo" class="logos" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Escudo_f.png" />
+
+    <!---------Formularios----->
+    <form>
+        <!------Usuario----->
+        <label for="user">Usuario:</label>
+        <br>
+        <input type="text" id="user" name="user" />
+        <br>
+        <label for="pass">Contraseña:</label>
+        <br>
+        <input type="password" id="pass" name="pass" />
+        <br>
+        <br>
+        <label for="ciudades">Ciudad:</label>
+        <select id="ciudades" name="ciudades">
+            <option>Bogotá</option>
+            <option>Medellín</option>
+            <option>Cali</option>
+            <option>Pereira</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Registro" />
+    </form>
+
+</body>
+
+</html>

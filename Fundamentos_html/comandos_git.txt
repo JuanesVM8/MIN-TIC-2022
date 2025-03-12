@@ -1,0 +1,13 @@
+----comandos git---
+
+git init
+url del repositorio
+git add .
+git commit -m "initial commit"
+git push origin master
+
+
+------realizar una actualización----
+git add .
+git commit -m "comentario"
+git push origin master
