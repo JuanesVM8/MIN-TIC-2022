@@ -1,0 +1,8 @@
+------DOCUMENTACIÓN DE MONGOOSE----
+https://mongoosejs.com/docs/api/model.html
+
+-------HEROKU---
+https://id.heroku.com/login
+
+------DESPLIEGUE DEL PROYECTO VUE EN HEROKU----
+https://cli.vuejs.org/guide/deployment.html#heroku
