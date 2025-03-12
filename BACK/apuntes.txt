@@ -1,0 +1,32 @@
+---------CREAR ARCHIVO DE CONFIGURACIÓN MANUAL-----
+npm init
+
+-------CREAR ARCHIVO CON CONFIGURACIÓN POR DEFECTO------
+npm init -y
+
+
+
+
+---------INSTALAR DEPENDENCIAS------
+EXPRESS:
+    npm install express
+
+NODEMON (Herramienta en ambiente de desarrollo):
+    npm install nodemon
+
+
+-----EJECUTAR SCRIPTS----
+npm run nombreScript
+
+----MÉTODOS DE SOLICITUD HTTP DEL LADO DEL CLIENTE---
+GET: Recibir datos
+POST: Crear recurso
+PUT: Actualizar
+DELETE: Eliminar un recurso
+
+
+------INSTALAR DEPENDENCIA DE CONEXIÓN A MYSQL----
+npm install mysql
+
+-----DOCUMENTACIÓN DE CONEXIÓN A DIFERENTES BD-----
+https://expressjs.com/es/guide/database-integration.html
